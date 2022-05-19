@@ -28,10 +28,10 @@
 
 
 # Set up NAMESPACE and install -----------------------------------
-#devtools::document()
-#devtools::load_all()
-#devtools::check()
-#devtools::install()
+# devtools::document()
+# devtools::load_all()
+# devtools::check()
+# devtools::install()
 
 
 

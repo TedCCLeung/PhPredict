@@ -1,5 +1,6 @@
 #' Read gff3 files into Grange objects
 #' @importFrom magrittr %>%
+#' @importFrom rlang .data
 #'
 #' @param file Character. Full path to the gff3 files
 #' @param max_pval Numeric.
@@ -10,7 +11,7 @@
 #' @export
 
 gff3_to_feature <- function(
-  file = "/Users/TedCCLeung/Documents/Projects/Photoperiod/2_analysis/2_pipeline/4_MotifEnrichment/CISBP/1_mapping/cluster01.gff3",
+  file,
   max_pval = 1,
   max_qval = 1
 ){
